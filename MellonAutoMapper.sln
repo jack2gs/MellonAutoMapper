@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MellonAutoMapper", "MellonAutoMapper\MellonAutoMapper.csproj", "{F4FC6900-A014-4709-9B11-2F8A94F9A82D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MelonAutoMapper", "MellonAutoMapper\MelonAutoMapper.csproj", "{F4FC6900-A014-4709-9B11-2F8A94F9A82D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MelonAutoMapper.UnitTest", "MelonAutoMapper.Test\MelonAutoMapper.UnitTest.csproj", "{23A5E37E-B479-4E67-826E-DBEFBD3E5DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MelonAutoMapper.IntigrationTest", "MelonAutoMapper.IntigrationTest\MelonAutoMapper.IntigrationTest.csproj", "{310A1B9A-FB09-4DB9-9F64-D1E7C9F9E661}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F4FC6900-A014-4709-9B11-2F8A94F9A82D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4FC6900-A014-4709-9B11-2F8A94F9A82D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4FC6900-A014-4709-9B11-2F8A94F9A82D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A5E37E-B479-4E67-826E-DBEFBD3E5DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A5E37E-B479-4E67-826E-DBEFBD3E5DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A5E37E-B479-4E67-826E-DBEFBD3E5DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A5E37E-B479-4E67-826E-DBEFBD3E5DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310A1B9A-FB09-4DB9-9F64-D1E7C9F9E661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310A1B9A-FB09-4DB9-9F64-D1E7C9F9E661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310A1B9A-FB09-4DB9-9F64-D1E7C9F9E661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310A1B9A-FB09-4DB9-9F64-D1E7C9F9E661}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
